@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0A081B;
+    color: #fff;
+    width: 1325px;
+    margin: auto;
+}
+
+#bg_menu{
+    position: fixed;
+    background-color: #43405f;
+    height: 80px;
+    display: inline-flex;
+    align-items: center;
+    z-index: 1;    
+    width: 1325px;
+    margin: auto;
+}
+#bg_menu #menu_img{
+}
+#bg_menu #menu_img img{
+    height: 35px;
+    width: auto;
+}
+
+#bg_menu #menu_pc{
+    
+}
+
