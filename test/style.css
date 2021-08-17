@@ -13,7 +13,7 @@ body{
 #bg_menu{
     position: fixed;
     background-color: #43405f;
-    height: 80px;
+    height: 72px;
     display: inline-flex;
     align-items: center;
     z-index: 1;    
@@ -31,9 +31,26 @@ body{
     
 }
 #bg_menu #menu_pc .allcategory{
-    
+    display: inline-block;
+    margin-left: 75px;
 }
 
-#bg_menu #menu_pc .allcategory .menu_dd{
-    
+#bg_menu #menu_pc .allcategory .menu_dd .btn_dd_menu{
+    display: inline-block;
+    margin: 0 10px
+}
+
+#bg_menu #menu_pc .allcategory .menu_dd .btn_dd_menu p{
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+#bg_menu #menu_pc .allcategory .menu_dd .btn_dd_menu img{
+    transform: rotate(270deg);
+    width: 11px;
+    display: inline-block;
+    margin-left: 10px;
 }
