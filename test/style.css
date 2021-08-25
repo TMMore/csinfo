@@ -25,6 +25,7 @@ body{
 #bg_menu #menu_img img{
     height: 35px;
     width: auto;
+    display: ;
 }
 
 #bg_menu #menu_pc{
@@ -42,10 +43,12 @@ body{
 
 #bg_menu #menu_pc .allcategory .menu_dd .btn_dd_menu p{
     display: inline-block;
-    font-size: 16px;
+    font-size: 1em;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    font-weight: 750;
+    letter-spacing: inherit;
+    margin: 0;
 }
 
 #bg_menu #menu_pc .allcategory .menu_dd .btn_dd_menu img{
@@ -54,3 +57,9 @@ body{
     display: inline-block;
     margin-left: 10px;
 }
+
+
+
+
+
+ 

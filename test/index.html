@@ -38,43 +38,32 @@
 
                 <div class="btn_dd_menu">
 
-                    <p>knives</p><img src="left-direction-arrow-svgrepo-com.svg" style=""  alt="">
+                    <p>pistols</p><img src="left-direction-arrow-svgrepo-com.svg" style=""  alt="">
 
                 </div>
               
                 <div class="btn_dd_menu">
 
-                    <p>knives</p><img src="left-direction-arrow-svgrepo-com.svg" style=""  alt="">
+                    <p>smgs</p><img src="left-direction-arrow-svgrepo-com.svg" style=""  alt="">
 
                 </div>
               
                 <div class="btn_dd_menu">
 
-                    <p>knives</p><img src="left-direction-arrow-svgrepo-com.svg" style=""  alt="">
+                    <p>rifles</p><img src="left-direction-arrow-svgrepo-com.svg" style=""  alt="">
 
                 </div>
               
                 <div class="btn_dd_menu">
 
-                    <p>knives</p><img src="left-direction-arrow-svgrepo-com.svg" style=""  alt="">
+                    <p>heavy</p><img src="left-direction-arrow-svgrepo-com.svg" style=""  alt="">
 
                 </div>
                 <div class="btn_dd_menu">
 
-                    <p>knives</p><img src="left-direction-arrow-svgrepo-com.svg" style=""  alt="">
+                    <p>outher</p><img src="left-direction-arrow-svgrepo-com.svg" style=""  alt="">
 
-                </div>
-              
-                <div class="btn_dd_menu">
-
-                    <p>knives</p><img src="left-direction-arrow-svgrepo-com.svg" style=""  alt="">
-
-                </div>
-              
-              
-              
-<!--  -->
-
+                </div>              
             </div>
         </div>
 
@@ -115,6 +104,36 @@
     <p>ola</p><p>ola</p><p>ola</p><p>ola</p><p>ola</p>
     <p>ola</p>
 </div>
+
+
+
+
+
+<script>
+   /* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show-knives");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show-knives')) {
+        openDropdown.classList.remove('show-knives');
+      }
+    }
+  }
+}
+    </script>
+
+
+
+
 
 </body>
 </html>
